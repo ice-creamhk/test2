@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
     Intent intent;
     private Myservice myservice;
     private Myservice.MyBinder binder;
+    int sb;
 
 
     private ServiceConnection connection=new ServiceConnection() {
